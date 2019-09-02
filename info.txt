@@ -1,0 +1,14 @@
+Team members:
+Sofia Vitkov - 321339004
+Judit Jaakov - 016003659
+Levan Tatikishvili - 321279887
+
+Description of how to run the code:
+1)Invoke the random_topo.py file to create random topology as follows: python random_topo.py
+   The topology will be writen in random_topo.jason file in the current directory.
+2)Invoke the ECMPBalnacer.py as follows: ./pox.py ECMPBalancer
+   This is the controller. 
+   ***Befor you invoke it, change the path to the random_topo.jason file, to the place that you store it in your computer***
+3)Invoke the ran_topo_min.py file in another terminal, as follows: sudo -E python ran_topo_min.py
+   This will build the mininet topology, based on random topology in random_topo.jason file.
+    ***Befor you invoke it, change the path to the random_topo.jason file, to the place that you store it in your computer***
