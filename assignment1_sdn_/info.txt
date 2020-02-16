@@ -1,0 +1,10 @@
+Team members:
+Sofia Vitkov - 321339004
+Judit Jaakov - 016003659
+Levan Tatikishvili - 321379887
+
+Description of how to run the code:
+1) In the controller "con.py". Change the path that leads to the file "firewall-policies.csv" based on where you put it in your computer.
+    The path is stored in variable "policyFile", right under all the imports.
+2)Execute pox controller - "con.py" 
+3)Exucte mininet topology - "topo.py" 
